@@ -1,0 +1,10 @@
+C:\Users\Miguel Angel\OneDrive\Documentos\GitHub\Hitmx3.2-Desarrollo\.mono\temp\bin\Debug\Hitmx3.2-Desarrollo.dll
+C:\Users\Miguel Angel\OneDrive\Documentos\GitHub\Hitmx3.2-Desarrollo\.mono\temp\bin\Debug\Hitmx3.2-Desarrollo.pdb
+C:\Users\Miguel Angel\OneDrive\Documentos\GitHub\Hitmx3.2-Desarrollo\.mono\temp\obj\Debug\Hitmx3.2-Desarrollo.csproj.AssemblyReference.cache
+C:\Users\Miguel Angel\OneDrive\Documentos\GitHub\Hitmx3.2-Desarrollo\.mono\temp\obj\Debug\Hitmx3.2-Desarrollo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel Angel\OneDrive\Documentos\GitHub\Hitmx3.2-Desarrollo\.mono\temp\obj\Debug\Hitmx3.2-Desarrollo.AssemblyInfoInputs.cache
+C:\Users\Miguel Angel\OneDrive\Documentos\GitHub\Hitmx3.2-Desarrollo\.mono\temp\obj\Debug\Hitmx3.2-Desarrollo.AssemblyInfo.cs
+C:\Users\Miguel Angel\OneDrive\Documentos\GitHub\Hitmx3.2-Desarrollo\.mono\temp\obj\Debug\Hitmx3.2-Desarrollo.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Angel\OneDrive\Documentos\GitHub\Hitmx3.2-Desarrollo\.mono\temp\obj\Debug\Hitmx3.2-Desarrollo.sourcelink.json
+C:\Users\Miguel Angel\OneDrive\Documentos\GitHub\Hitmx3.2-Desarrollo\.mono\temp\obj\Debug\Hitmx3.2-Desarrollo.dll
+C:\Users\Miguel Angel\OneDrive\Documentos\GitHub\Hitmx3.2-Desarrollo\.mono\temp\obj\Debug\Hitmx3.2-Desarrollo.pdb

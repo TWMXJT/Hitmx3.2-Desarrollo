@@ -1,21 +1,39 @@
 using Godot;
-using System;
 
 public class PlayerS : KinematicBody2D
 {
-    // Declare member variables here. Examples:
-    // private int a = 2;
-    // private string b = "text";
+    string name = "Elvio Lado";
+    int HP = 100;
 
-    // Called when the node enters the scene tree for the first time.
+    int speed = 10;
+
+    Vector2 velocity = new Vector2(5, 5);
+
     public override void _Ready()
     {
         
     }
 
-//  // Called every frame. 'delta' is the elapsed time since the previous frame.
-//  public override void _Process(float delta)
-//  {
-//      
-//  }
+    public override void _Process(float delta)
+    {
+        velocity.x = 0;
+        velocity.y = 0;
+        if (Input.IsActionPressed("Right"))
+        {
+            velocity.x += speed;
+        }
+        if (Input.IsActionPressed("Left"))
+        {
+            velocity.x -= speed;
+        }
+        if (Input.IsActionPressed("Up"))
+        {
+            velocity.y -= speed;
+        }
+        if (Input.IsActionPressed("Down"))
+        {
+            velocity.y += speed;
+        }
+        Position += velocity;
+    }
 }
