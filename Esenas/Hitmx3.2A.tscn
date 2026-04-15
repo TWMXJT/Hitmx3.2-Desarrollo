@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Script/Script Player/PlayerS.cs" type="Script" id=1]
 [ext_resource path="res://Assets/Sprite_Player/Link_LA.png" type="Texture" id=2]
 [ext_resource path="res://Assets/Sprite_Player/Link.LA.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Mapas_de_pruebas/Mapa_de_pruebas_por_mamon_xd.webp" type="Texture" id=4]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -13,22 +14,49 @@ animations = [ {
 } ]
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 52, 64 )
+extents = Vector2( 27.5, 32 )
 
 [node name="Node2D" type="Node2D"]
+
+[node name="MapaDePruebasPorMamonXd" type="Sprite" parent="."]
+position = Vector2( 2342, 1544 )
+scale = Vector2( 4.15502, 3.515 )
+texture = ExtResource( 4 )
+
+[node name="MapaDePruebasPorMamonXd2" type="Sprite" parent="."]
+position = Vector2( -390, 1832 )
+scale = Vector2( 4.15502, 3.515 )
+texture = ExtResource( 4 )
 
 [node name="Player" type="KinematicBody2D" parent="."]
 collision/safe_margin = 0.001
 script = ExtResource( 1 )
 
 [node name="Sprite" type="Sprite" parent="Player"]
+position = Vector2( 1.90735e-06, 0 )
+scale = Vector2( 0.796049, 0.706787 )
+texture = ExtResource( 2 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Player"]
+position = Vector2( -644.643, 512.414 )
+scale = Vector2( -1.58005, -2.81676e-05 )
+frames = SubResource( 1 )
+flip_h = true
+
+[node name="AnimatedSprite2" type="AnimatedSprite" parent="Player"]
+position = Vector2( -644.643, 512.414 )
+scale = Vector2( -1.58005, -2.81676e-05 )
 frames = SubResource( 1 )
 flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2( 1143, 521 )
 shape = SubResource( 2 )
 __meta__ = {
 "_edit_group_": true
 }
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+scale = Vector2( 0.933003, 1.30106 )
+current = true
+zoom = Vector2( 0.5, 0.5 )

@@ -2,16 +2,16 @@ using Godot;
 
 public class PlayerS : KinematicBody2D
 {
-    string name = "Elvio Lado";
+    string name = "Jose Juan";
     int HP = 100;
 
-    int speed = 10;
+    int speed = 3;
 
-    Vector2 velocity = new Vector2(5, 5);
+    Vector2 velocity = new Vector2(0, 0);
 
     public override void _Ready()
     {
-        
+      Position = new Vector2(1000,500);  
     }
 
     public override void _Process(float delta)
@@ -33,6 +33,10 @@ public class PlayerS : KinematicBody2D
         if (Input.IsActionPressed("Down"))
         {
             velocity.y += speed;
+        }
+        if (Input.IsActionPressed("Run"))
+        {
+            velocity *= speed;
         }
         Position += velocity;
     }
