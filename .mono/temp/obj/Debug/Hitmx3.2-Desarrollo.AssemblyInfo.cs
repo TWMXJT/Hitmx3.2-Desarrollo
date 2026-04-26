@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hitmx3.2-Desarrollo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+417c01e0ed5c56468bb98222d5afadc701ecc08a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hitmx3.2-Desarrollo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hitmx3.2-Desarrollo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

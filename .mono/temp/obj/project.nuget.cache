@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ec8/MS+9n3s=",
+  "dgSpecHash": "l5UwNGt3zvpGZcIXmoDsyDaZJTfFRcjw4cZv2QthxLaNOHVNzdV4P9IgXPIRzxmhcuT70h5hYjDSfeG1Vq3SFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Miguel Angel\\OneDrive\\Documentos\\GitHub\\Hitmx3.2-Desarrollo\\Hitmx3.2-Desarrollo.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/twmxjtx64/Documentos/GitHub/Hitmx3.2-Desarrollo/Hitmx3.2-Desarrollo.csproj",
+  "expectedPackageFiles": [
+    "/home/twmxjtx64/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.2/microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "/home/twmxjtx64/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.2/microsoft.netframework.referenceassemblies.net472.1.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
